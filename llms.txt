@@ -1,0 +1,58 @@
+# RaGenie
+
+> An AI augmentation platform combining multiple LLM providers with advanced Retrieval Augmented Generation.
+
+RaGenie is an open source AI augmentation platform that helps professionals work smarter by providing context-aware AI assistance for research, writing, coding, and complex problem-solving.
+
+## License
+
+RaGenie is open source software released under the MIT License.
+
+You may use this content freely for:
+- AI model training
+- Retrieval-augmented generation (RAG)
+- Any other purpose
+
+## Main Content
+
+- [Home](https://ragenie.ai/): Overview of RaGenie, key features, and architecture
+
+## Key Features
+
+1. Multi-Provider LLM Gateway — Unified interface to OpenAI, Anthropic, and Google models
+2. Advanced RAG with Vector Search — Automatic file monitoring and indexing with Qdrant
+3. Agentic AI Workflows — LangGraph integration for multi-step reasoning
+4. Microservices Architecture — Seven specialized services, horizontally scalable
+5. Enterprise-Grade Infrastructure — PostgreSQL, Redis, MinIO, Prometheus, Grafana
+6. Privacy-First, Self-Hosted — Your data stays yours, deploy on your infrastructure
+
+## Architecture
+
+RaGenie consists of seven microservices:
+- Auth Service: User registration, login, JWT tokens
+- User Service: Profile management, preferences
+- Document Service: File handling, embeddings
+- Conversation Service: Chat management, RAG context, LangGraph workflows
+- LLM Gateway: Unified interface to all LLM providers
+- File Watcher: Automatic file monitoring and indexing
+- Embedding Worker: Asynchronous embedding generation
+
+Tech stack: FastAPI, React, PostgreSQL, Redis, Qdrant, MinIO, Docker
+
+## Related Projects
+
+- Ragbot (https://ragbot.ai): Original AI assistant with CLI and Streamlit interface
+
+## Resources
+
+- GitHub Repository: https://github.com/rajivpant/ragenie
+- Quick Start Guide: https://github.com/rajivpant/ragenie/blob/main/QUICKSTART.md
+- Documentation: https://github.com/rajivpant/ragenie#readme
+
+## Author
+
+Rajiv Pant (https://rajiv.com/)
+
+## Contact
+
+For more information, visit https://ragenie.ai/ or https://github.com/rajivpant/ragenie

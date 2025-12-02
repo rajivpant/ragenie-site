@@ -1,0 +1,2 @@
+# Redirect www to apex domain
+https://www.ragenie.ai/* https://ragenie.ai/:splat 301
